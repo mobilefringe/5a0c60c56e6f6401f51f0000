@@ -378,7 +378,7 @@ function getAssetURL(id){
     return store_front_image_url;
 }
 
-unction halloweenBats (options) {
+function halloweenBats (options) {
 	var Bat,
 		bats = [],
 		$body= $('body'),
