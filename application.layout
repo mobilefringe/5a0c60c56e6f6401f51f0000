@@ -332,7 +332,8 @@
             });
         });
     </script>
-    
+    <div class="fb-customerchat" page_id="Test-Page-137431223685855" ref="<OPTIONAL_WEBHOOK_PARAM>" minimized="<true|false>">
+    </div>
 
     <!--<div class="fb-livechat">-->
     <!--    <div class="ctrlq fb-overlay"></div>-->
