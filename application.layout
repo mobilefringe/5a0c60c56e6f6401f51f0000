@@ -65,6 +65,7 @@
 </head>
 
 <body class="">
+ <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
     <!--<script>-->
     <!--  window.fbAsyncInit = function() {-->
     <!--    FB.init({-->
