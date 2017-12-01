@@ -42,7 +42,7 @@ function init(e){
         window.location = $(this).val();
     });
     
-    halloweenBats({});
+    // halloweenBats({});
 }
 
 function show_content(){
