@@ -332,7 +332,7 @@
             });
         });
     </script>
-    <div class="fb-customerchat" page_id="137431223685855" ref="" minimized="true">
+    <div class="fb-customerchat" page_id="137431223685855" ref="" minimized="false">
     </div>
 
     <!--<div class="fb-livechat">-->
