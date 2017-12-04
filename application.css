@@ -2169,6 +2169,16 @@ gallery:after{
     }
     
 }
+
+@media(max-width: 468px){
+    .home_hours_phone {
+        margin-top: -20px;
+    }
+}
+.promo_details_container{
+    margin-top:25px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 769px) {
     .open_menu{
