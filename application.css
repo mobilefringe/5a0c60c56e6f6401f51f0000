@@ -1635,14 +1635,6 @@ gallery:after{
         font-size: 14px;
     }
 }
-@media(max-width: 468px){
-    .home_hours_phone {
-        margin-top: -20px;
-    }
-}
-.promo_details_container{
-    margin-top:25px;
-}
 
 @media(max-width: 768px){
     .popup_home img {
