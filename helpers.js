@@ -59,7 +59,7 @@ function init(e){
     });
     
 	
-	
+	snowInit ();
 	
     // halloweenBats({});
 }
