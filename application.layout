@@ -41,6 +41,8 @@
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
+    <script type="text/javascript" src="//codecloud.cdn.speedyrails.net/sites/5a0c60c56e6f6401f51f0000/text/javascript/1512576683197/ThreeCanvas.js"></script>
+	<script type="text/javascript" src="//codecloud.cdn.speedyrails.net/sites/5a0c60c56e6f6401f51f0000/text/javascript/1512576624180/Snow.js"></script>
     <script src="/application.js" type="text/javascript"></script>
     <script src="/helpers.js" type="text/javascript"></script>
     
