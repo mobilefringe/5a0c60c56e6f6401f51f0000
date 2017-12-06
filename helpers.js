@@ -14,7 +14,7 @@ var particles = [];
 var particleImage = new Image();//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
 particleImage.src = '//codecloud.cdn.speedyrails.net/sites/5a0c60c56e6f6401f51f0000/image/png/1512576570739/ParticleSmoke.png'; 
 
-$( window ).load(function() {
+$(window).on('load', function() {
     snowInit ();
 });
 
