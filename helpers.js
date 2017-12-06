@@ -1,4 +1,18 @@
-
+var SCREEN_WIDTH = window.innerWidth;
+    var SCREEN_HEIGHT = window.innerHeight;
+    var container;
+    var particle;
+    var camera;
+    var scene;
+    var renderer;
+    var mouseX = 0;
+    var mouseY = 0;
+    var windowHalfX = window.innerWidth / 2;
+    var windowHalfY = window.innerHeight / 2;
+    
+    var particles = []; 
+    var particleImage = new Image();//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
+    particleImage.src = '//codecloud.cdn.speedyrails.net/sites/5a0c60c56e6f6401f51f0000/image/png/1512576570739/ParticleSmoke.png'; 
 
 window.onload = function() {
     
