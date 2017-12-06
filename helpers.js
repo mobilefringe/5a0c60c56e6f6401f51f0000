@@ -89,6 +89,7 @@ window.onload = function() {
     	renderer.render( scene, camera );
     	
     }
+    setTimeout(function (){snowInit ();},1000);
 };
 
 function init(e){
