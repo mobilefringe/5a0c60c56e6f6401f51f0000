@@ -1,3 +1,19 @@
+var SCREEN_WIDTH = window.innerWidth;
+var SCREEN_HEIGHT = window.innerHeight;
+var container;
+var particle;
+var camera;
+var scene;
+var renderer;
+var mouseX = 0;
+var mouseY = 0;
+var windowHalfX = window.innerWidth / 2;
+var windowHalfY = window.innerHeight / 2;
+
+var particles = []; 
+var particleImage = new Image();//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
+particleImage.src = 'img/ParticleSmoke.png'; 
+
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
@@ -41,21 +57,7 @@ function init(e){
     $('#option_selector').change(function(){
         window.location = $(this).val();
     });
-    var SCREEN_WIDTH = window.innerWidth;
-	var SCREEN_HEIGHT = window.innerHeight;
-	var container;
-	var particle;
-	var camera;
-	var scene;
-	var renderer;
-	var mouseX = 0;
-	var mouseY = 0;
-	var windowHalfX = window.innerWidth / 2;
-	var windowHalfY = window.innerHeight / 2;
-	
-	var particles = []; 
-	var particleImage = new Image();//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
-	particleImage.src = 'img/ParticleSmoke.png'; 
+    
 	
 	
 	function init() {
